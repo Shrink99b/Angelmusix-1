@@ -39,5 +39,5 @@ async def ping_com(client, message: Message, _):
     end = datetime.now()
     resp = (end - start).microseconds / 1000
     await response.edit_text(
-        _["ping_2"].format(resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK)
+        _["ping_2"].format(resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping)
     )
