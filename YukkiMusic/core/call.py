@@ -17,7 +17,7 @@ from pyrogram.errors import (ChatAdminRequired,
 from pyrogram.types import InlineKeyboardMarkup
 from pytgcalls import PyTgCalls, StreamType
 from pytgcalls.exceptions import NoActiveGroupCall
-from pytgcalls.types import Update
+from pytgcalls.types import(JoinedGroupCallParticipant, LeftGroupCallParticipant, Update)
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.types.stream import StreamAudioEnded
 
