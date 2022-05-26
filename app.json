@@ -70,7 +70,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/HYPER-AD17/DZ-MUXIC-2.0",
+        "value": "https://github.com/S-UNSTOPPABLE/UNSTOPPABLEMUSICBOT",
         "required": true
       },
       "UPSTREAM_BRANCH": {
