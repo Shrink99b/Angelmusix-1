@@ -58,8 +58,9 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("SILENT_DEVS")
-                await self.one.join_chat("SILENT_BOTS")
-                await self.one.join_chat("SILENT_SUPPORT1")
+                await self.one.join_chat("UNSTOPPABLE_BOTS")
+                await self.one.join_chat("S_UNSTOPPABLE")
+                await self.one.join_chat("SilentVerse")
             except:
                 pass
             assistants.append(1)
@@ -89,8 +90,9 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("SILENT_DEVS")
-                await self.two.join_chat("SILENT_BOTS")
-                await self.two.join_chat("SILENT_SUPPORT1")
+                await self.two.join_chat("S_UNSTOPPABLE")
+                await self.two.join_chat("UNSTOPPABLE_BOTS")
+                await self.one.join_chat("SilentVerse")
             except:
                 pass
             assistants.append(2)
@@ -120,8 +122,9 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.three.join_chat("SILENT_DEVS")
-                await self.three.join_chat("SILENT_BOTS")
-                await self.three.join_chat("SILENT_SUPPORT1")
+                await self.three.join_chat("S_UNSTOPPABLE")
+                await self.three.join_chat("UNSTOPPABLE_BOTS")
+                await self.one.join_chat("SilentVerse")
             except:
                 pass
             assistants.append(3)
@@ -151,8 +154,9 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.four.join_chat("SILENT_DEVS")
-                await self.four.join_chat("SILENT_BOTS")
-                await self.four.join_chat("SILENT_SUPPORT1")
+                await self.four.join_chat("UNSTOPPABLE_BOTS")
+                await self.four.join_chat("S_UNSTOPPABLE")
+                await self.one.join_chat("SilentVerse")
             except:
                 pass
             assistants.append(4)
@@ -182,8 +186,9 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.five.join_chat("SILENT_DEVS")
-                await self.five.join_chat("SILENT_BOTS")
-                await self.five.join_chat("SILENT_SUPPORT1")
+                await self.five.join_chat("UNSTOPPABLE_BOTS")
+                await self.five.join_chat("S_UNSTOPPABLE")
+                await self.one.join_chat("SilentVerse")
             except:
                 pass
             assistants.append(5)
